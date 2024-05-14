@@ -1,5 +1,5 @@
 
-import Button from "../../Button";
+/*import Button from "../../Button";
 import { StyledMovie, StyledImage } from "./styles";
 
 const Movie = (props) => {
@@ -19,5 +19,24 @@ const Movie = (props) => {
     </StyledMovie>
   );
 };
+
+export default Movie;
+*/
+import React from "react";
+
+const Movie = ({movie}) => {
+  return (
+    <div className="movie">
+      <div>
+        <p>{movie.Year}</p>
+      </div>
+      <div>
+        <img src={movie.Poster !== 'N/A' ? movie.Poster : 'https://picsum.photos/200/300'} alt={movie.Title} />
+      </div>
+      <div>
+        <span>{movie.Title}</span>
+      </div></div>
+  );
+}
 
 export default Movie;

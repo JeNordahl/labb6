@@ -3,7 +3,7 @@ import { StyledHeader } from "./styles";
 const Header = () => {
     return (
         <StyledHeader>
-            <h1>Cinephile</h1>
+            <h1>Labb6</h1>
             <p></p>
         </StyledHeader>
     );
