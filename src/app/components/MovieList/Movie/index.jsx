@@ -22,9 +22,9 @@ const Movie = (props) => {
 
 export default Movie;
 */
-import React from "react";
+/*import React from "react";
 
-const Movie = ({movie}) => {
+const Movie = ({ movie }) => {
   return (
     <div className="movie">
       <div>
@@ -39,4 +39,4 @@ const Movie = ({movie}) => {
   );
 }
 
-export default Movie;
+export default Movie;*/
